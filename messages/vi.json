@@ -18,6 +18,20 @@
     "p8": "Trang web này mình tạo ra với mục đích ghi lại toàn bộ quá trình học tập, tìm hiểu và chuyển hướng sang lĩnh vực Testing của bản thân, như một cuốn nhật ký học tập để theo dõi sự tiến bộ của mình theo thời gian.",
     "p9": "Cảm ơn mọi người đã dành thời gian đọc ạ."
   },
+  "PageLinks": {
+    "about": {
+      "title": "Giới thiệu",
+      "description": "Tìm hiểu thêm về mình và hành trình chuyển ngành."
+    },
+    "training": {
+      "title": "Quá trình học tập",
+      "description": "Tiến trình học tập và ghi chú của mình."
+    },
+    "practices": {
+      "title": "Thực hành",
+      "description": "Các bài tập thực hành và dự án luyện tập."
+    }
+  },
   "AboutPage": {
     "title": "Giới thiệu",
     "placeholder": "Nội dung sẽ được cập nhật sớm..."

@@ -5,8 +5,8 @@ import { usePathname, useRouter } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
 
 const localeLabels: Record<string, string> = {
-  vi: '🇻🇳 VI',
-  en: '🇬🇧 EN',
+  vi: 'VI',
+  en: 'EN',
 };
 
 export default function LanguageSwitcher() {
@@ -19,15 +19,15 @@ export default function LanguageSwitcher() {
   }
 
   return (
-    <div className="flex items-center gap-1">
+    <div className="ml-2 flex items-center rounded-full border border-blue-100/50 dark:border-blue-800/30">
       {routing.locales.map((loc) => (
         <button
           key={loc}
           onClick={() => switchLocale(loc)}
-          className={`rounded-md px-2 py-1 text-xs font-medium transition-colors ${
+          className={`rounded-full px-3 py-0.5 text-xs font-medium transition-colors ${
             loc === locale
-              ? 'bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900'
-              : 'text-zinc-500 hover:bg-zinc-100 dark:text-zinc-400 dark:hover:bg-zinc-800'
+              ? 'bg-blue-600 text-white dark:bg-blue-500'
+              : 'text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300'
           }`}
         >
           {localeLabels[loc] ?? loc.toUpperCase()}

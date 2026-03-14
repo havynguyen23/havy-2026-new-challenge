@@ -1,7 +1,8 @@
-import Header from '@/app/components/Header';
+// Components
+import { Header } from '@/app/components/Header';
 import Footer from '@/app/components/Footer';
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="flex min-h-screen flex-col font-google-sans">
       <Header />
@@ -13,4 +14,6 @@ export default function Home() {
       <Footer />
     </div>
   );
-}
+};
+
+export default Home;

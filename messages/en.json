@@ -1,8 +1,8 @@
 {
   "Header": {
     "about": "About",
-    "services": "Services",
-    "contact": "Contact"
+    "education": "Training",
+    "practices": "Practices"
   },
   "Footer": {
     "rights": "All rights reserved."

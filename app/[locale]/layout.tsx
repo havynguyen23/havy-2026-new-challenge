@@ -8,6 +8,10 @@ import { routing } from '@/i18n/routing';
 // Global styles
 import '../globals.css';
 
+// Components
+import { Header } from '../components/Header';
+import { Footer } from '../components/Footer';
+
 // Utils
 import { customGenerateMetadata } from '../utils/page';
 
@@ -48,7 +52,15 @@ export default async function LocaleLayout({
       <body
         className={`${fleurDeLeah.variable} ${googleSansFlex.variable} antialiased`}
       >
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <div className="flex min-h-screen flex-col font-google-sans">
+            <Header />
+            <main className="flex flex-1 flex-col items-center px-6">
+              {children}
+            </main>
+            <Footer />
+          </div>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

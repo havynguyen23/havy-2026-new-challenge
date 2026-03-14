@@ -19,7 +19,7 @@ export const PageLinks = () => {
           <Link
             key={key}
             href={href}
-            className="group rounded-lg border border-black/10 p-5 transition-colors duration-200 hover:border-black/30 hover:bg-black/[0.02]"
+            className="group rounded-lg border border-black/10 p-5 transition-colors duration-200 hover:border-black/30 hover:bg-black/2"
           >
             <h3 className="mb-1 text-base font-semibold">
               {t(`${key}.title`)}

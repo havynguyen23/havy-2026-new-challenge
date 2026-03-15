@@ -31,4 +31,19 @@ export const ROUTES = {
     TITLE: '',
     LABEL_KEY: 'plans',
   },
+  HTML_PLAN: {
+    PATH: '/plans/html-fundamentals',
+    TITLE: '',
+    LABEL_KEY: 'plans',
+  },
+  CSS_PLAN: {
+    PATH: '/plans/css-fundamentals',
+    TITLE: '',
+    LABEL_KEY: 'plans',
+  },
+  JS_PLAN: {
+    PATH: '/plans/javascript-fundamentals',
+    TITLE: '',
+    LABEL_KEY: 'plans',
+  },
 } as const;

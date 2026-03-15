@@ -91,19 +91,16 @@ export const vi: DiaryEntry = {
       <h4>Lộ trình học mình tự lên:</h4>
       <ul>
         <li>
-          <strong>Tuần 1-2:</strong> HTML cơ bản - tags, attributes, forms,
-          tables
+          <strong>HTML (5 ngày · 15/03 – 19/03):</strong> Cấu trúc tài liệu,
+          HTML ngữ nghĩa, forms, bảng & media, accessibility
         </li>
         <li>
-          <strong>Tuần 3-4:</strong> CSS cơ bản - selectors, box model,
-          flexbox, màu sắc và font
+          <strong>CSS (4 ngày · 20/03 – 23/03):</strong> Selectors & box
+          model, flexbox, grid & responsive, transitions & animations
         </li>
         <li>
-          <strong>Tuần 5-8:</strong> JavaScript cơ bản - variables, functions,
-          DOM manipulation, events
-        </li>
-        <li>
-          <strong>Sau đó:</strong> Làm một dự án nhỏ kết hợp cả 3 thứ
+          <strong>JavaScript (1 tuần · 24/03 – 30/03):</strong> Biến & kiểu
+          dữ liệu, hàm, mảng & object, DOM, events, async, ES6+
         </li>
       </ul>
 
@@ -294,19 +291,16 @@ export const en: DiaryEntry = {
       <h4>My self-made learning roadmap:</h4>
       <ul>
         <li>
-          <strong>Week 1-2:</strong> HTML basics - tags, attributes, forms,
-          tables
+          <strong>HTML (5 days · Mar 15 – Mar 19):</strong> Document structure,
+          semantic HTML, forms, tables & media, accessibility
         </li>
         <li>
-          <strong>Week 3-4:</strong> CSS basics - selectors, box model,
-          flexbox, colors and fonts
+          <strong>CSS (4 days · Mar 20 – Mar 23):</strong> Selectors & box
+          model, flexbox, grid & responsive, transitions & animations
         </li>
         <li>
-          <strong>Week 5-8:</strong> JavaScript basics - variables, functions,
-          DOM manipulation, events
-        </li>
-        <li>
-          <strong>After that:</strong> Build a small project combining all 3
+          <strong>JavaScript (1 week · Mar 24 – Mar 30):</strong> Variables &
+          data types, functions, arrays & objects, DOM, events, async, ES6+
         </li>
       </ul>
 

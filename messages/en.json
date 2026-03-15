@@ -108,6 +108,24 @@
         "description": "A complete self-study roadmap for transitioning into a QA/Tester role from scratch — covering fundamentals, manual testing, API testing, automation, and job preparation.",
         "period": "Mar 2026 – Aug 2026",
         "topics": ["Roadmap", "Self-study", "6 Months"]
+      },
+      "1": {
+        "title": "HTML Fundamentals",
+        "description": "Learn the building blocks of the web — document structure, semantic elements, forms, and accessibility basics.",
+        "period": "Mar 15 – Mar 19, 2026",
+        "topics": ["HTML", "5 Days", "Web Basics"]
+      },
+      "2": {
+        "title": "CSS Fundamentals",
+        "description": "Learn how to style web pages using selectors, the box model, flexbox, grid, and responsive design principles.",
+        "period": "Mar 20 – Mar 23, 2026",
+        "topics": ["CSS", "4 Days", "Styling"]
+      },
+      "3": {
+        "title": "JavaScript Fundamentals",
+        "description": "Learn the core concepts of JavaScript — variables, functions, DOM manipulation, events, and async programming.",
+        "period": "Mar 24 – Mar 30, 2026",
+        "topics": ["JavaScript", "1 Week", "Programming"]
       }
     }
   },
@@ -151,6 +169,120 @@
       "period": "Month 6 · Aug 2026",
       "goal": "Build a portfolio, prepare a CV, and get ready for junior Tester interviews.",
       "topics": ["CV writing for testers", "Portfolio on GitHub", "Common interview questions", "Mock bug reports & test cases", "Applying for junior positions"]
+    }
+  },
+  "HtmlPlanPage": {
+    "title": "HTML Fundamentals",
+    "overview": "A 5-day plan to learn the core building blocks of the web. Covers document structure, semantic HTML, forms, media, and accessibility basics.",
+    "scheduleTitle": "Learning Schedule",
+    "backToPlans": "Back to Plans",
+    "day1": {
+      "title": "Document Structure & Core Tags",
+      "period": "Day 1 · Mar 15, 2026",
+      "goal": "Understand how an HTML document is structured and learn the most common tags.",
+      "topics": ["DOCTYPE & html/head/body", "Headings & paragraphs", "Links & images", "Lists (ul, ol, li)", "Inline vs block elements"]
+    },
+    "day2": {
+      "title": "Semantic HTML",
+      "period": "Day 2 · Mar 16, 2026",
+      "goal": "Learn to write meaningful HTML using semantic elements that improve readability and SEO.",
+      "topics": ["header, nav, main, footer", "section & article", "aside & figure", "Why semantics matter", "Replacing divs with semantic tags"]
+    },
+    "day3": {
+      "title": "Forms & Input Types",
+      "period": "Day 3 · Mar 17, 2026",
+      "goal": "Build interactive forms using various input types and understand form submission basics.",
+      "topics": ["form, label, input", "Text, email, password, number", "Radio, checkbox, select", "Textarea & button", "Form validation attributes"]
+    },
+    "day4": {
+      "title": "Tables, Media & Embedding",
+      "period": "Day 4 · Mar 18, 2026",
+      "goal": "Display structured data with tables and embed media such as images, video, and audio.",
+      "topics": ["table, thead, tbody, tr, td", "img with alt text", "video & audio elements", "iframe basics", "Responsive images with srcset"]
+    },
+    "day5": {
+      "title": "Accessibility & Best Practices",
+      "period": "Day 5 · Mar 19, 2026",
+      "goal": "Write accessible, clean HTML that works well for all users and assistive technologies.",
+      "topics": ["ARIA roles & attributes", "alt text for images", "Keyboard navigation", "Logical heading hierarchy", "HTML validation"]
+    }
+  },
+  "CssPlanPage": {
+    "title": "CSS Fundamentals",
+    "overview": "A 4-day plan to learn how to style web pages. Covers the box model, flexbox, grid, responsive design, and basic animations.",
+    "scheduleTitle": "Learning Schedule",
+    "backToPlans": "Back to Plans",
+    "day1": {
+      "title": "Selectors, Specificity & Box Model",
+      "period": "Day 1 · Mar 20, 2026",
+      "goal": "Understand how CSS rules are applied and how the box model controls layout and spacing.",
+      "topics": ["Type, class, ID selectors", "Pseudo-classes & pseudo-elements", "Specificity & cascade", "Margin, padding, border", "box-sizing: border-box"]
+    },
+    "day2": {
+      "title": "Flexbox",
+      "period": "Day 2 · Mar 21, 2026",
+      "goal": "Use flexbox to build one-dimensional layouts with flexible, responsive behavior.",
+      "topics": ["display: flex", "flex-direction & flex-wrap", "justify-content & align-items", "flex-grow, shrink, basis", "Building a navbar with flexbox"]
+    },
+    "day3": {
+      "title": "Grid & Responsive Design",
+      "period": "Day 3 · Mar 22, 2026",
+      "goal": "Create two-dimensional layouts with CSS Grid and make pages adapt to different screen sizes.",
+      "topics": ["display: grid", "grid-template-columns & rows", "gap, span, placement", "Media queries", "Mobile-first approach"]
+    },
+    "day4": {
+      "title": "Transitions, Animations & CSS Variables",
+      "period": "Day 4 · Mar 23, 2026",
+      "goal": "Add motion and dynamic theming to pages using CSS transitions, keyframe animations, and custom properties.",
+      "topics": ["transition property", "@keyframes & animation", "transform (translate, scale, rotate)", "CSS custom properties (--var)", "Hover & focus effects"]
+    }
+  },
+  "JsPlanPage": {
+    "title": "JavaScript Fundamentals",
+    "overview": "A 1-week plan to learn the core concepts of JavaScript. Covers variables, functions, DOM manipulation, events, and async programming.",
+    "scheduleTitle": "Learning Schedule",
+    "backToPlans": "Back to Plans",
+    "day1": {
+      "title": "Variables, Data Types & Operators",
+      "period": "Day 1 · Mar 24, 2026",
+      "goal": "Understand the basic building blocks of JavaScript: how to store and work with data.",
+      "topics": ["var, let, const", "String, number, boolean, null, undefined", "Arithmetic & comparison operators", "Type coercion", "console.log & debugging basics"]
+    },
+    "day2": {
+      "title": "Control Flow & Functions",
+      "period": "Day 2 · Mar 25, 2026",
+      "goal": "Control program logic with conditionals and loops, and organize code into reusable functions.",
+      "topics": ["if/else & switch", "for, while, for...of loops", "Function declarations & expressions", "Arrow functions", "Scope & hoisting"]
+    },
+    "day3": {
+      "title": "Arrays & Objects",
+      "period": "Day 3 · Mar 26, 2026",
+      "goal": "Work with collections of data using arrays and objects, including common built-in methods.",
+      "topics": ["Array methods (map, filter, reduce)", "Destructuring", "Spread & rest operators", "Object properties & methods", "Iterating over objects"]
+    },
+    "day4": {
+      "title": "DOM Manipulation",
+      "period": "Day 4 · Mar 27, 2026",
+      "goal": "Read and modify HTML elements and styles directly from JavaScript.",
+      "topics": ["querySelector & getElementById", "innerHTML, textContent", "classList (add, remove, toggle)", "createElement & appendChild", "Modifying attributes & styles"]
+    },
+    "day5": {
+      "title": "Events",
+      "period": "Day 5 · Mar 28, 2026",
+      "goal": "Respond to user interactions like clicks, inputs, and keyboard actions.",
+      "topics": ["addEventListener", "click, input, submit events", "Event object & preventDefault", "Event delegation", "Keyboard events"]
+    },
+    "day6": {
+      "title": "Async Programming",
+      "period": "Day 6 · Mar 29, 2026",
+      "goal": "Understand asynchronous JavaScript and how to fetch data from APIs.",
+      "topics": ["Callbacks & the event loop", "Promises (.then, .catch)", "async/await", "fetch API", "Handling loading & error states"]
+    },
+    "day7": {
+      "title": "ES6+ Features & Practice",
+      "period": "Day 7 · Mar 30, 2026",
+      "goal": "Review modern JavaScript syntax and apply everything learned in a small hands-on project.",
+      "topics": ["Template literals", "Modules (import/export)", "Optional chaining & nullish coalescing", "localStorage basics", "Mini project: To-do list"]
     }
   },
   "Footer": {

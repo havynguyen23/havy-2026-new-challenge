@@ -82,7 +82,7 @@ export const TrainingContent = () => {
   const selectedEntry = entries.find((e) => e.date === activeDate);
 
   return (
-    <div className="flex w-full max-w-4xl gap-8 py-12">
+    <div className="flex w-full max-w-4xl flex-col gap-0 py-12 lg:flex-row lg:gap-8">
       <Outline
         items={outlineItems}
         activeDate={activeDate}

@@ -4,5 +4,21 @@ export const ROUTES = {
   HOME: {
     PATH: '/',
     TITLE: APP_INFORMATION.BIO,
+    LABEL_KEY: 'home',
   },
-};
+  ABOUT: {
+    PATH: '/about',
+    TITLE: '',
+    LABEL_KEY: 'about',
+  },
+  TRAINING: {
+    PATH: '/training',
+    TITLE: '',
+    LABEL_KEY: 'education',
+  },
+  PRACTICES: {
+    PATH: '/practices',
+    TITLE: '',
+    LABEL_KEY: 'practices',
+  },
+} as const;

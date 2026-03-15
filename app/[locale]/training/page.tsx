@@ -1,4 +1,13 @@
 import { useLocale, useTranslations } from 'next-intl';
+
+// Utils
+import { customGenerateMetadata } from '@/app/utils/page';
+
+// Constants
+import { ROUTES } from '@/app/constants/routes';
+
+export const generateMetadata = () => customGenerateMetadata(ROUTES.TRAINING);
+
 import { diaryEntries } from './entries/index';
 import { Outline } from './components/Outline';
 

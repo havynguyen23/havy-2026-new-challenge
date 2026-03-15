@@ -1,5 +1,13 @@
 import { useTranslations } from 'next-intl';
 
+// Utils
+import { customGenerateMetadata } from '@/app/utils/page';
+
+// Constants
+import { ROUTES } from '@/app/constants/routes';
+
+export const generateMetadata = () => customGenerateMetadata(ROUTES.ABOUT);
+
 const timelineItems = ['university', 'highSchool', 'middleSchool'] as const;
 const skillItems = ['excel', 'detail', 'document'] as const;
 

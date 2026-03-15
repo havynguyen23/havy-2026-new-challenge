@@ -1,5 +1,13 @@
 import { useTranslations } from 'next-intl';
 
+// Utils
+import { customGenerateMetadata } from '@/app/utils/page';
+
+// Constants
+import { ROUTES } from '@/app/constants/routes';
+
+export const generateMetadata = () => customGenerateMetadata(ROUTES.PRACTICES);
+
 const Practices = () => {
   const t = useTranslations('PracticesPage');
 

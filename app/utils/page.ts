@@ -1,17 +1,30 @@
 import { Metadata } from 'next';
+import { getLocale, getTranslations } from 'next-intl/server';
+
+// Constants
 import { APP_INFORMATION } from '../constants/app';
 
 type Route = {
   PATH: string;
   TITLE: string;
+  LABEL_KEY: string;
 };
 
-export const customGenerateMetadata = (route?: Route): Metadata => {
-  const title = route
-    ? `${APP_INFORMATION.NAME} | ${route.TITLE}`
-    : APP_INFORMATION.NAME;
-  const description =
-    route?.TITLE ?? `${APP_INFORMATION.NAME} - ${APP_INFORMATION.BIO}`;
+export const customGenerateMetadata = async (
+  route?: Route,
+): Promise<Metadata> => {
+  const [t, locale] = await Promise.all([
+    getTranslations('Header'),
+    getLocale(),
+  ]);
+
+  const appName =
+    locale === 'vi' ? APP_INFORMATION.NAME_IN_VIETNAMESE : APP_INFORMATION.NAME;
+
+  const pageTitle = route ? route.TITLE || t(route.LABEL_KEY) : null;
+
+  const title = pageTitle ? `${appName} | ${pageTitle}` : appName;
+  const description = pageTitle ?? `${appName} - ${APP_INFORMATION.BIO}`;
 
   return {
     title,

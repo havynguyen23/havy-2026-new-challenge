@@ -6,15 +6,14 @@ import { useTranslations } from 'next-intl';
 // i18n
 import { Link } from '@/i18n/navigation';
 
+// Constants
+import { ROUTES } from '@/app/constants/routes';
+
 // Components
 import { LanguageSwitcher } from '../LanguageSwitcher';
 import { Logo } from '../Logo';
 
-const navItems = [
-  { key: 'about', href: '/about' },
-  { key: 'education', href: '/training' },
-  { key: 'practices', href: '/practices' },
-] as const;
+const navItems = [ROUTES.HOME, ROUTES.ABOUT, ROUTES.TRAINING, ROUTES.PRACTICES];
 
 export const Header = () => {
   const t = useTranslations('Header');
@@ -31,13 +30,13 @@ export const Header = () => {
 
           {/* Desktop Nav */}
           <nav className="hidden items-center gap-6 md:flex">
-            {navItems.map(({ key, href }) => (
+            {navItems.map(({ LABEL_KEY, PATH }) => (
               <Link
-                key={key}
-                href={href}
+                key={LABEL_KEY}
+                href={PATH}
                 className="text-sm font-medium transition-opacity duration-300 hover:opacity-50"
               >
-                {t(key)}
+                {t(LABEL_KEY)}
               </Link>
             ))}
           </nav>
@@ -93,14 +92,14 @@ export const Header = () => {
       {/* Mobile Nav - Fullscreen overlay */}
       {mobileMenuOpen && (
         <div className="fixed inset-0 top-14 z-40 flex flex-col items-center gap-6 bg-white pt-8 md:hidden">
-          {navItems.map(({ key, href }) => (
+          {navItems.map(({ LABEL_KEY, PATH }) => (
             <Link
-              key={key}
-              href={href}
+              key={LABEL_KEY}
+              href={PATH}
               onClick={() => setMobileMenuOpen(false)}
               className="text-2xl font-medium transition-opacity duration-300 hover:opacity-50"
             >
-              {t(key)}
+              {t(LABEL_KEY)}
             </Link>
           ))}
         </div>

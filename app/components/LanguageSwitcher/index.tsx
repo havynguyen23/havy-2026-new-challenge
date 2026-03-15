@@ -3,6 +3,7 @@
 import { useLocale } from 'next-intl';
 import { usePathname, useRouter } from '@/i18n/navigation';
 import { routing } from '@/i18n/routing';
+import { useSearchParams } from 'next/navigation';
 
 const localeLabels: Record<string, string> = {
   vi: 'VI',
@@ -13,9 +14,11 @@ export const LanguageSwitcher = () => {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
+  const searchParams = useSearchParams();
 
   function switchLocale(nextLocale: string) {
-    router.replace(pathname, { locale: nextLocale });
+    const query = searchParams.toString();
+    router.replace(`${pathname}${query ? `?${query}` : ''}`, { locale: nextLocale });
   }
 
   return (

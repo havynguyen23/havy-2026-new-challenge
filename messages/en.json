@@ -85,7 +85,9 @@
   },
   "TrainingPage": {
     "title": "Training",
-    "placeholder": "Content coming soon..."
+    "placeholder": "Content coming soon...",
+    "share": "Share",
+    "copied": "Copied!"
   },
   "PracticesPage": {
     "title": "Practices",

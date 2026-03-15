@@ -85,7 +85,9 @@
   },
   "TrainingPage": {
     "title": "Quá trình học tập",
-    "placeholder": "Nội dung sẽ được cập nhật sớm..."
+    "placeholder": "Nội dung sẽ được cập nhật sớm...",
+    "share": "Chia sẻ",
+    "copied": "Đã sao chép!"
   },
   "PracticesPage": {
     "title": "Thực hành",

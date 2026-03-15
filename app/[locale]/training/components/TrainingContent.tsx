@@ -2,6 +2,10 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
+import { useSearchParams } from 'next/navigation';
+
+// i18n
+import { useRouter, usePathname } from '@/i18n/navigation';
 
 import { diaryEntries } from '../entries/index';
 import { Outline } from './Outline';
@@ -18,17 +22,26 @@ export const TrainingContent = () => {
   const t = useTranslations('TrainingPage');
   const locale = useLocale();
   const entries = diaryEntries[locale] ?? [];
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
 
-  const [activeDate, setActiveDate] = useState(
-    entries[entries.length - 1]?.date ?? '',
-  );
+  const dateParam = searchParams.get('date');
+  const defaultDate =
+    (dateParam && entries.find((e) => e.date === dateParam)?.date) ??
+    entries[entries.length - 1]?.date ??
+    '';
+
+  const [activeDate, setActiveDate] = useState(defaultDate);
   const [isVisible, setIsVisible] = useState(true);
+  const [copied, setCopied] = useState(false);
   const pendingDate = useRef(activeDate);
 
   const handleSelect = (date: string) => {
     if (date === activeDate) return;
     pendingDate.current = date;
     setIsVisible(false);
+    router.replace(`${pathname}?date=${date}`, { scroll: false });
   };
 
   useEffect(() => {
@@ -41,12 +54,27 @@ export const TrainingContent = () => {
     }
   }, [isVisible]);
 
-  const outlineItems = [...entries]
-    .reverse()
-    .map((entry) => ({
-      date: entry.date,
-      label: formatDate(entry.date),
-    }));
+  const handleShare = async () => {
+    const url = window.location.href;
+    const title = selectedEntry?.title ?? t('title');
+
+    if (navigator.share) {
+      try {
+        await navigator.share({ title, url });
+      } catch {
+        // User cancelled or share failed — do nothing
+      }
+    } else {
+      await navigator.clipboard.writeText(url);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }
+  };
+
+  const outlineItems = [...entries].reverse().map((entry) => ({
+    date: entry.date,
+    label: formatDate(entry.date),
+  }));
 
   const selectedEntry = entries.find((e) => e.date === activeDate);
 
@@ -72,9 +100,18 @@ export const TrainingContent = () => {
             <div className="relative mb-12 last:mb-0">
               <div className="absolute -left-10.25 top-1 h-4 w-4 rounded-full border-2 border-black/20 bg-white" />
 
-              <span className="text-sm font-medium text-black/40">
-                {formatDate(selectedEntry.date)}
-              </span>
+              <div className="flex items-center justify-between">
+                <span className="text-sm font-medium text-black/40">
+                  {formatDate(selectedEntry.date)}
+                </span>
+                <button
+                  onClick={handleShare}
+                  className="flex items-center gap-1.5 rounded-md px-2.5 py-1 text-xs text-black/40 transition-colors hover:bg-black/5 hover:text-black/70"
+                >
+                  {copied ? t('copied') : t('share')}
+                </button>
+              </div>
+
               <h3 className="mt-1 text-base font-semibold">
                 {selectedEntry.title}
               </h3>

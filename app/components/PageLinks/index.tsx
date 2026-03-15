@@ -10,13 +10,21 @@ const pages = [
   { key: 'plans', href: '/plans' },
 ] as const;
 
-export const PageLinks = () => {
+type PageHref = (typeof pages)[number]['href'];
+
+interface PageLinksProps {
+  exclude?: PageHref;
+}
+
+export const PageLinks = ({ exclude }: PageLinksProps) => {
   const t = useTranslations('PageLinks');
+  const filtered = exclude ? pages.filter((p) => p.href !== exclude) : pages;
+  const colsCls = filtered.length === 3 ? 'lg:grid-cols-3' : 'lg:grid-cols-4';
 
   return (
     <section className="mx-auto w-full max-w-3xl py-12">
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        {pages.map(({ key, href }) => (
+      <div className={`grid gap-4 sm:grid-cols-2 ${colsCls}`}>
+        {filtered.map(({ key, href }) => (
           <Link
             key={key}
             href={href}

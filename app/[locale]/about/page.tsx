@@ -6,6 +6,9 @@ import { customGenerateMetadata } from '@/app/utils/page';
 // Constants
 import { ROUTES } from '@/app/constants/routes';
 
+// Components
+import { PageLinks } from '@/app/components/PageLinks';
+
 export const generateMetadata = () => customGenerateMetadata(ROUTES.ABOUT);
 
 const timelineItems = ['university', 'highSchool', 'middleSchool'] as const;
@@ -79,6 +82,7 @@ const About = () => {
           ))}
         </div>
       </section>
+      <PageLinks exclude="/about" />
     </div>
   );
 };

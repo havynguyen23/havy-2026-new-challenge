@@ -2,9 +2,8 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-
 // i18n
-import { Link } from '@/i18n/navigation';
+import { Link, usePathname } from '@/i18n/navigation';
 
 // Constants
 import { ROUTES } from '@/app/constants/routes';
@@ -17,6 +16,7 @@ const navItems = [ROUTES.HOME, ROUTES.ABOUT, ROUTES.TRAINING, ROUTES.PRACTICES, 
 
 export const Header = () => {
   const t = useTranslations('Header');
+  const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -34,7 +34,7 @@ export const Header = () => {
               <Link
                 key={LABEL_KEY}
                 href={PATH}
-                className="text-sm font-medium transition-opacity duration-300 hover:opacity-50"
+                className={`text-sm font-medium transition-opacity duration-300 hover:opacity-50 ${pathname === PATH ? 'underline underline-offset-4' : ''}`}
               >
                 {t(LABEL_KEY)}
               </Link>
@@ -97,7 +97,7 @@ export const Header = () => {
               key={LABEL_KEY}
               href={PATH}
               onClick={() => setMobileMenuOpen(false)}
-              className="text-2xl font-medium transition-opacity duration-300 hover:opacity-50"
+              className={`text-2xl font-medium transition-opacity duration-300 hover:opacity-50 ${pathname === PATH ? 'underline underline-offset-4' : ''}`}
             >
               {t(LABEL_KEY)}
             </Link>

@@ -11,6 +11,7 @@ import '../globals.css';
 // Components
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
+import { ScrollToTop } from '../components/ScrollToTop';
 
 // Utils
 import { customGenerateMetadata } from '../utils/pages';
@@ -59,6 +60,7 @@ export default async function LocaleLayout({
               {children}
             </main>
             <Footer />
+            <ScrollToTop />
           </div>
         </NextIntlClientProvider>
       </body>

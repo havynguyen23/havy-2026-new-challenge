@@ -6,11 +6,12 @@ import * as entry20260315 from './2026-03-15';
 import * as entry20260316 from './2026-03-16';
 import * as entry20260317 from './2026-03-17';
 import * as entry20260318 from './2026-03-18';
+import * as entry20260319 from './2026-03-19';
 
 export type { DiaryEntry };
 
 // Add new imports at the top, newest first
-const allEntries: Record<string, DiaryEntry>[] = [entry20260314, entry20260315, entry20260316, entry20260317, entry20260318];
+const allEntries: Record<string, DiaryEntry>[] = [entry20260314, entry20260315, entry20260316, entry20260317, entry20260318, entry20260319];
 
 export const diaryEntries: Record<string, DiaryEntry[]> = {
   vi: allEntries.map((e) => e.vi),

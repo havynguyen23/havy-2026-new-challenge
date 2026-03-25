@@ -17,11 +17,16 @@ export const PLANS: PlanStaticData[] = [
     slug: ROUTES.TESTER_PLAN.PATH.split('/').pop(),
   },
   {
-    id: '1',
+    id: '2',
     status: 'in-progress',
+    slug: ROUTES.JS_PLAN.PATH.split('/').pop(),
+  },
+  {
+    id: '1',
+    status: 'completed',
     slug: ROUTES.CSS_PLAN.PATH.split('/').pop(),
   },
-  { id: '2', status: 'planned', slug: ROUTES.JS_PLAN.PATH.split('/').pop() },
+
   {
     id: '3',
     status: 'completed',

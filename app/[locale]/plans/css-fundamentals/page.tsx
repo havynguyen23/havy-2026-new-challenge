@@ -33,10 +33,10 @@ const statusStyles: Record<PlanStatus, string> = {
 };
 
 const DAYS: Day[] = [
-  { key: 'day1', number: 1, status: 'planned' },
-  { key: 'day2', number: 2, status: 'planned' },
-  { key: 'day3', number: 3, status: 'planned' },
-  { key: 'day4', number: 4, status: 'planned' },
+  { key: 'day1', number: 1, status: 'completed' },
+  { key: 'day2', number: 2, status: 'completed' },
+  { key: 'day3', number: 3, status: 'completed' },
+  { key: 'day4', number: 4, status: 'completed' },
 ];
 
 const CssPlan = () => {

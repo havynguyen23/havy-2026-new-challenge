@@ -112,19 +112,19 @@
       "1": {
         "title": "CSS Fundamentals",
         "description": "Learn how to style web pages using selectors, the box model, flexbox, grid, and responsive design principles.",
-        "period": "Mar 20 – Mar 23, 2026",
+        "period": "Mar 21 – Mar 24, 2026",
         "topics": ["CSS", "4 Days", "Styling"]
       },
       "2": {
         "title": "JavaScript Fundamentals",
         "description": "Learn the core concepts of JavaScript — variables, functions, DOM manipulation, events, and async programming.",
-        "period": "Mar 24 – Mar 30, 2026",
+        "period": "Mar 25 – Mar 31, 2026",
         "topics": ["JavaScript", "1 Week", "Programming"]
       },
       "3": {
         "title": "HTML Fundamentals",
         "description": "Learn the building blocks of the web — document structure, semantic elements, forms, and accessibility basics.",
-        "period": "Mar 15 – Mar 19, 2026",
+        "period": "Mar 16 – Mar 20, 2026",
         "topics": ["HTML", "5 Days", "Web Basics"]
       }
     }
@@ -212,7 +212,7 @@
     "backToPlans": "Back to Plans",
     "day1": {
       "title": "Document Structure & Core Tags",
-      "period": "Day 1 · Mar 15, 2026",
+      "period": "Day 1 · Mar 16, 2026",
       "goal": "Understand how an HTML document is structured and learn the most common tags.",
       "topics": [
         "DOCTYPE & html/head/body",
@@ -224,7 +224,7 @@
     },
     "day2": {
       "title": "Semantic HTML",
-      "period": "Day 2 · Mar 16, 2026",
+      "period": "Day 2 · Mar 17, 2026",
       "goal": "Learn to write meaningful HTML using semantic elements that improve readability and SEO.",
       "topics": [
         "header, nav, main, footer",
@@ -236,7 +236,7 @@
     },
     "day3": {
       "title": "Forms & Input Types",
-      "period": "Day 3 · Mar 17, 2026",
+      "period": "Day 3 · Mar 18, 2026",
       "goal": "Build interactive forms using various input types and understand form submission basics.",
       "topics": [
         "form, label, input",
@@ -248,7 +248,7 @@
     },
     "day4": {
       "title": "Tables, Media & Embedding",
-      "period": "Day 4 · Mar 18, 2026",
+      "period": "Day 4 · Mar 19, 2026",
       "goal": "Display structured data with tables and embed media such as images, video, and audio.",
       "topics": [
         "table, thead, tbody, tr, td",
@@ -260,7 +260,7 @@
     },
     "day5": {
       "title": "Accessibility & Best Practices",
-      "period": "Day 5 · Mar 19, 2026",
+      "period": "Day 5 · Mar 20, 2026",
       "goal": "Write accessible, clean HTML that works well for all users and assistive technologies.",
       "topics": [
         "ARIA roles & attributes",
@@ -278,7 +278,7 @@
     "backToPlans": "Back to Plans",
     "day1": {
       "title": "Selectors, Specificity & Box Model",
-      "period": "Day 1 · Mar 20, 2026",
+      "period": "Day 1 · Mar 21, 2026",
       "goal": "Understand how CSS rules are applied and how the box model controls layout and spacing.",
       "topics": [
         "Type, class, ID selectors",
@@ -290,7 +290,7 @@
     },
     "day2": {
       "title": "Flexbox",
-      "period": "Day 2 · Mar 21, 2026",
+      "period": "Day 2 · Mar 22, 2026",
       "goal": "Use flexbox to build one-dimensional layouts with flexible, responsive behavior.",
       "topics": [
         "display: flex",
@@ -302,7 +302,7 @@
     },
     "day3": {
       "title": "Grid & Responsive Design",
-      "period": "Day 3 · Mar 22, 2026",
+      "period": "Day 3 · Mar 23, 2026",
       "goal": "Create two-dimensional layouts with CSS Grid and make pages adapt to different screen sizes.",
       "topics": [
         "display: grid",
@@ -314,7 +314,7 @@
     },
     "day4": {
       "title": "Transitions, Animations & CSS Variables",
-      "period": "Day 4 · Mar 23, 2026",
+      "period": "Day 4 · Mar 24, 2026",
       "goal": "Add motion and dynamic theming to pages using CSS transitions, keyframe animations, and custom properties.",
       "topics": [
         "transition property",
@@ -332,7 +332,7 @@
     "backToPlans": "Back to Plans",
     "day1": {
       "title": "Variables, Data Types & Operators",
-      "period": "Day 1 · Mar 24, 2026",
+      "period": "Day 1 · Mar 25, 2026",
       "goal": "Understand the basic building blocks of JavaScript: how to store and work with data.",
       "topics": [
         "var, let, const",
@@ -344,7 +344,7 @@
     },
     "day2": {
       "title": "Control Flow & Functions",
-      "period": "Day 2 · Mar 25, 2026",
+      "period": "Day 2 · Mar 26, 2026",
       "goal": "Control program logic with conditionals and loops, and organize code into reusable functions.",
       "topics": [
         "if/else & switch",
@@ -356,7 +356,7 @@
     },
     "day3": {
       "title": "Arrays & Objects",
-      "period": "Day 3 · Mar 26, 2026",
+      "period": "Day 3 · Mar 27, 2026",
       "goal": "Work with collections of data using arrays and objects, including common built-in methods.",
       "topics": [
         "Array methods (map, filter, reduce)",
@@ -368,7 +368,7 @@
     },
     "day4": {
       "title": "DOM Manipulation",
-      "period": "Day 4 · Mar 27, 2026",
+      "period": "Day 4 · Mar 28, 2026",
       "goal": "Read and modify HTML elements and styles directly from JavaScript.",
       "topics": [
         "querySelector & getElementById",
@@ -380,7 +380,7 @@
     },
     "day5": {
       "title": "Events",
-      "period": "Day 5 · Mar 28, 2026",
+      "period": "Day 5 · Mar 29, 2026",
       "goal": "Respond to user interactions like clicks, inputs, and keyboard actions.",
       "topics": [
         "addEventListener",
@@ -392,7 +392,7 @@
     },
     "day6": {
       "title": "Async Programming",
-      "period": "Day 6 · Mar 29, 2026",
+      "period": "Day 6 · Mar 30, 2026",
       "goal": "Understand asynchronous JavaScript and how to fetch data from APIs.",
       "topics": [
         "Callbacks & the event loop",
@@ -404,7 +404,7 @@
     },
     "day7": {
       "title": "ES6+ Features & Practice",
-      "period": "Day 7 · Mar 30, 2026",
+      "period": "Day 7 · Mar 31, 2026",
       "goal": "Review modern JavaScript syntax and apply everything learned in a small hands-on project.",
       "topics": [
         "Template literals",

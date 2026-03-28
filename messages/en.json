@@ -64,6 +64,20 @@
         "document": "Office document and record management"
       }
     },
+    "softSkills": {
+      "title": "Personality & Soft Skills",
+      "items": {
+        "detail": "Detail-oriented — always pays close attention to the small things",
+        "patient": "Patient and persistent, willing to redo work until it's right",
+        "analytical": "Analytical mindset, enjoys finding the root cause of problems",
+        "responsible": "Responsible and reliable, follows through on tasks to completion",
+        "learner": "Eager to learn, proactively seeks out answers when facing the unknown"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "labelEmail": "Email"
+    },
     "educationTitle": "Education",
     "education": {
       "university": {

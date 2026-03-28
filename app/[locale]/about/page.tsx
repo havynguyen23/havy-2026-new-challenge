@@ -13,6 +13,7 @@ export const generateMetadata = () => customGenerateMetadata(ROUTES.ABOUT);
 
 const timelineItems = ['university', 'highSchool', 'middleSchool'] as const;
 const skillItems = ['excel', 'detail', 'document'] as const;
+const softSkillItems = ['detail', 'patient', 'analytical', 'responsible', 'learner'] as const;
 
 const About = () => {
   const t = useTranslations('AboutPage');
@@ -55,6 +56,16 @@ const About = () => {
         </ul>
       </section>
 
+      {/* Soft Skills */}
+      <section className="mb-10">
+        <h2 className="mb-4 text-lg font-semibold">{t('softSkills.title')}</h2>
+        <ul className="list-disc space-y-1.5 pl-5 text-sm">
+          {softSkillItems.map((key) => (
+            <li key={key}>{t(`softSkills.items.${key}`)}</li>
+          ))}
+        </ul>
+      </section>
+
       {/* Education Timeline */}
       <section>
         <h2 className="mb-6 text-lg font-semibold">{t('educationTitle')}</h2>
@@ -82,6 +93,22 @@ const About = () => {
           ))}
         </div>
       </section>
+      {/* Contact */}
+      <section className="mt-10 mb-10">
+        <h2 className="mb-4 text-lg font-semibold">{t('contact.title')}</h2>
+        <dl className="grid grid-cols-[auto_1fr] gap-x-6 gap-y-2 text-sm">
+          <dt className="text-black/40">{t('contact.labelEmail')}</dt>
+          <dd>
+            <a
+              href="mailto:havy.nguyen142003@gmail.com"
+              className="underline underline-offset-2"
+            >
+              havy.nguyen142003@gmail.com
+            </a>
+          </dd>
+        </dl>
+      </section>
+
       <PageLinks exclude="/about" />
     </div>
   );

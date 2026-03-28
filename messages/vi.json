@@ -64,6 +64,20 @@
         "document": "Xử lý và quản lý hồ sơ, chứng từ văn phòng"
       }
     },
+    "softSkills": {
+      "title": "Tính cách & Kỹ năng mềm",
+      "items": {
+        "detail": "Tỉ mỉ, cẩn thận — luôn chú ý đến từng chi tiết nhỏ trong công việc",
+        "patient": "Kiên nhẫn và chịu khó, sẵn sàng làm đi làm lại cho đến khi đúng",
+        "analytical": "Có tư duy phân tích, thích tìm hiểu nguyên nhân gốc rễ của vấn đề",
+        "responsible": "Có trách nhiệm với công việc được giao, không bỏ dở giữa chừng",
+        "learner": "Ham học hỏi, chủ động tự tìm tòi khi gặp điều chưa biết"
+      }
+    },
+    "contact": {
+      "title": "Liên hệ",
+      "labelEmail": "Email"
+    },
     "educationTitle": "Quá trình học tập",
     "education": {
       "university": {

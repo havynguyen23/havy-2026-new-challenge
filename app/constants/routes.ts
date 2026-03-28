@@ -14,7 +14,7 @@ export const ROUTES = {
   TRAINING: {
     PATH: '/training',
     TITLE: '',
-    LABEL_KEY: 'education',
+    LABEL_KEY: 'self-learning',
   },
   PRACTICES: {
     PATH: '/practices',

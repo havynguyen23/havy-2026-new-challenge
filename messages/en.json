@@ -90,9 +90,9 @@
     "copied": "Copied!"
   },
   "ProjectsPage": {
-    "title": "Practices",
+    "title": "Projects",
     "placeholder": "Content coming soon...",
-    "empty": "I haven't done any practice yet. Check back later!"
+    "empty": "I haven't worked on any project yet. Check back later!"
   },
   "PlansPage": {
     "title": "Plans",

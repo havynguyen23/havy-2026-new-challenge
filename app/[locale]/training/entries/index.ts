@@ -18,6 +18,9 @@ import * as entry20260325 from './2026-03-25';
 import * as entry20260326 from './2026-03-26';
 import * as entry20260327 from './2026-03-27';
 
+// Entries Week 3
+import * as entry20260328 from './2026-03-28';
+
 export type { DiaryEntry };
 
 // Add new imports at the top, newest first
@@ -36,6 +39,7 @@ const allEntries: Record<string, DiaryEntry>[] = [
   entry20260325,
   entry20260326,
   entry20260327,
+  entry20260328,
 ];
 
 export const diaryEntries: Record<string, DiaryEntry[]> = {

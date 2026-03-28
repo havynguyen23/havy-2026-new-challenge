@@ -415,6 +415,10 @@
       ]
     }
   },
+  "RecentActivity": {
+    "title": "Hoạt động gần đây",
+    "viewAll": "Xem tất cả"
+  },
   "Footer": {
     "copyright": "© {year} {name}.",
     "rights": "Tất cả quyền được bảo lưu."

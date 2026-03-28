@@ -10,7 +10,7 @@ export const Introduction = () => {
   return (
     <section
       id="about"
-      className="mx-auto w-full max-w-3xl space-y-6 py-12 text-base leading-relaxed"
+      className="mx-auto w-full max-w-2xl space-y-6 py-12 text-base leading-relaxed"
     >
       <p>{t.rich('p1', { bold })}</p>
       <p>{t('p2')}</p>

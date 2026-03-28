@@ -19,11 +19,11 @@ interface PageLinksProps {
 export const PageLinks = ({ exclude }: PageLinksProps) => {
   const t = useTranslations('PageLinks');
   const filtered = exclude ? pages.filter((p) => p.href !== exclude) : pages;
-  const colsCls = filtered.length === 3 ? 'lg:grid-cols-3' : 'lg:grid-cols-4';
+  const colsCls = filtered.length === 3 ? 'sm:grid-cols-3' : 'sm:grid-cols-2';
 
   return (
-    <section className="mx-auto w-full max-w-3xl py-12">
-      <div className={`grid gap-4 sm:grid-cols-2 ${colsCls}`}>
+    <section className="mx-auto w-full max-w-2xl py-12">
+      <div className={`grid gap-4 ${colsCls}`}>
         {filtered.map(({ key, href }) => (
           <Link
             key={key}

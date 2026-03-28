@@ -419,6 +419,10 @@
     "copyright": "© {year} {name}.",
     "rights": "All rights reserved."
   },
+  "RecentActivity": {
+    "title": "Recent Activity",
+    "viewAll": "View all"
+  },
   "HomePage": {
     "title": "To get started, edit the page.tsx file.",
     "description": "Looking for a starting point or more instructions? Head over to <templates>Templates</templates> or the <learning>Learning center</learning>.",

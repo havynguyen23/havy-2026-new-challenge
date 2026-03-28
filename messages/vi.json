@@ -415,6 +415,27 @@
       ]
     }
   },
+  "Testimonials": {
+    "title": "Nhận xét từ cộng đồng",
+    "subtitle": "Những chia sẻ và lời khuyên mình nhận được từ anh chị và các bạn trong ngành Testing.",
+    "items": {
+      "0": {
+        "name": "Anh Minh Tuấn",
+        "role": "Senior QA Engineer",
+        "comment": "Mình thấy bạn có tư duy rất phù hợp với nghề Tester — cẩn thận, tỉ mỉ và biết đặt câu hỏi. Quan trọng nhất là bạn đang hành động thay vì chỉ nghĩ. Cứ tiếp tục đi, con đường đầu tiên bao giờ cũng khó nhất."
+      },
+      "1": {
+        "name": "Chị Lan Anh",
+        "role": "QA Lead · 5 năm kinh nghiệm",
+        "comment": "Mình cũng từng bắt đầu từ con số 0 không khác gì bạn. Hãy tập trung vào việc hiểu rõ quy trình testing, viết bug report cẩn thận và thực hành nhiều. Đừng bỏ cuộc khi thấy khó — đó là lúc bạn đang thực sự học."
+      },
+      "2": {
+        "name": "Bạn Hoàng Phúc",
+        "role": "Junior Tester · mới vào nghề 1 năm",
+        "comment": "Mình đã pass phỏng vấn Tester sau 4 tháng tự học, cũng không có background IT. Trang nhật ký học tập như thế này rất hay — nó vừa giúp bạn ôn lại, vừa chứng minh được sự nghiêm túc với nhà tuyển dụng. Cố lên nhé!"
+      }
+    }
+  },
   "RecentActivity": {
     "title": "Hoạt động gần đây",
     "viewAll": "Xem tất cả"

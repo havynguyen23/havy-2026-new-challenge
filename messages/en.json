@@ -419,6 +419,27 @@
     "copyright": "© {year} {name}.",
     "rights": "All rights reserved."
   },
+  "Testimonials": {
+    "title": "Community Feedback",
+    "subtitle": "Advice and encouragement I received from people in the Testing community.",
+    "items": {
+      "0": {
+        "name": "Minh Tuan",
+        "role": "Senior QA Engineer",
+        "comment": "You seem to have the right mindset for a Tester — careful, detail-oriented, and curious enough to ask questions. Most importantly, you're taking action instead of just thinking about it. Keep going. The first step is always the hardest."
+      },
+      "1": {
+        "name": "Lan Anh",
+        "role": "QA Lead · 5 years experience",
+        "comment": "I started from zero too, just like you. Focus on understanding the testing process, writing clear bug reports, and practicing as much as you can. Don't give up when it gets hard — that's when the real learning happens."
+      },
+      "2": {
+        "name": "Hoang Phuc",
+        "role": "Junior Tester · 1 year in the industry",
+        "comment": "I passed my first Tester interview after 4 months of self-study with no IT background. A learning journal like this is great — it helps you review what you've learned and shows recruiters that you're serious. Keep it up!"
+      }
+    }
+  },
   "RecentActivity": {
     "title": "Recent Activity",
     "viewAll": "View all"

@@ -3,7 +3,7 @@
     "home": "Home",
     "about": "About",
     "self-learning": "Self-learning",
-    "practices": "Practices",
+    "projects": "Projects",
     "plans": "Plans"
   },
   "Introduction": {
@@ -29,8 +29,8 @@
       "title": "Training",
       "description": "My learning progress and study notes."
     },
-    "practices": {
-      "title": "Practices",
+    "projects": {
+      "title": "Projects",
       "description": "Hands-on exercises and practice projects."
     },
     "plans": {
@@ -89,7 +89,7 @@
     "share": "Share",
     "copied": "Copied!"
   },
-  "PracticesPage": {
+  "ProjectsPage": {
     "title": "Practices",
     "placeholder": "Content coming soon...",
     "empty": "I haven't done any practice yet. Check back later!"

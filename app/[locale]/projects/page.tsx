@@ -9,18 +9,18 @@ import { ROUTES } from '@/app/constants/routes';
 // Components
 import { PageLinks } from '@/app/components/PageLinks';
 
-export const generateMetadata = () => customGenerateMetadata(ROUTES.PRACTICES);
+export const generateMetadata = () => customGenerateMetadata(ROUTES.PROJECTS);
 
-const Practices = () => {
-  const t = useTranslations('PracticesPage');
+const Projects = () => {
+  const t = useTranslations('ProjectsPage');
 
   return (
     <div className="w-full max-w-2xl py-12">
       <h1 className="mb-6 text-2xl font-semibold">{t('title')}</h1>
       <p className="text-black/60">{t('empty')}</p>
-      <PageLinks exclude="/practices" />
+      <PageLinks exclude="/projects" />
     </div>
   );
 };
 
-export default Practices;
+export default Projects;

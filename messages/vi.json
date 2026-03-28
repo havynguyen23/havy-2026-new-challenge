@@ -3,7 +3,7 @@
     "home": "Trang chủ",
     "about": "Giới thiệu",
     "self-learning": "Quá trình tự học",
-    "practices": "Thực hành",
+    "projects": "Dự án",
     "plans": "Kế hoạch"
   },
   "Introduction": {
@@ -29,8 +29,8 @@
       "title": "Quá trình học tập",
       "description": "Tiến trình học tập và ghi chú của mình."
     },
-    "practices": {
-      "title": "Thực hành",
+    "projects": {
+      "title": "Dự án",
       "description": "Các bài tập thực hành và dự án luyện tập."
     },
     "plans": {
@@ -89,7 +89,7 @@
     "share": "Chia sẻ",
     "copied": "Đã sao chép!"
   },
-  "PracticesPage": {
+  "ProjectsPage": {
     "title": "Thực hành",
     "placeholder": "Nội dung sẽ được cập nhật sớm...",
     "empty": "Tôi chưa thực hành gì cả. Hãy quay lại sau nhé!"

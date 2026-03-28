@@ -16,10 +16,10 @@ export const ROUTES = {
     TITLE: '',
     LABEL_KEY: 'self-learning',
   },
-  PRACTICES: {
-    PATH: '/practices',
+  PROJECTS: {
+    PATH: '/projects',
     TITLE: '',
-    LABEL_KEY: 'practices',
+    LABEL_KEY: 'projects',
   },
   PLANS: {
     PATH: '/plans',

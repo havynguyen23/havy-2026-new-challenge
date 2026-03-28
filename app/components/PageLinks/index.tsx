@@ -6,7 +6,7 @@ import { Link } from '@/i18n/navigation';
 const pages = [
   { key: 'about', href: '/about' },
   { key: 'training', href: '/training' },
-  { key: 'practices', href: '/practices' },
+  { key: 'projects', href: '/projects' },
   { key: 'plans', href: '/plans' },
 ] as const;
 

@@ -130,7 +130,7 @@
   },
   "HtmlCssLandingProjectPage": {
     "title": "HTML/CSS Landing Page",
-    "overview": "A landing page built from scratch using only HTML and CSS — no frameworks, no libraries. The goal is to apply HTML and CSS fundamentals in a real project, using Vite as the build tool. The page is currently being developed and temporarily accessible at .me/index.html.",
+    "overview": "A landing page built from scratch using only HTML and CSS — no frameworks, no libraries. The goal is to apply HTML and CSS fundamentals in a real project, using Vite as the build tool.",
     "backToProjects": "Back to Projects",
     "techStackTitle": "Tech Stack",
     "techStack": [

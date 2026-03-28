@@ -130,7 +130,7 @@
   },
   "HtmlCssLandingProjectPage": {
     "title": "Landing Page HTML/CSS",
-    "overview": "Một landing page được xây dựng từ đầu chỉ bằng HTML và CSS — không framework, không thư viện. Mục tiêu là áp dụng kiến thức HTML và CSS cơ bản vào một dự án thực tế, sử dụng Vite làm công cụ build. Trang hiện đang được phát triển và tạm thời có thể truy cập tại .me/index.html.",
+    "overview": "Một landing page được xây dựng từ đầu chỉ bằng HTML và CSS — không framework, không thư viện. Mục tiêu là áp dụng kiến thức HTML và CSS cơ bản vào một dự án thực tế, sử dụng Vite làm công cụ build.",
     "backToProjects": "Quay lại Dự án",
     "techStackTitle": "Công nghệ sử dụng",
     "techStack": [

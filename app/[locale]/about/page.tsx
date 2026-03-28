@@ -11,6 +11,7 @@ import { PageLinks } from '@/app/components/PageLinks';
 
 export const generateMetadata = () => customGenerateMetadata(ROUTES.ABOUT);
 
+const workItems = ['0'] as const;
 const timelineItems = ['university', 'highSchool', 'middleSchool'] as const;
 const skillItems = ['excel', 'detail', 'document'] as const;
 const softSkillItems = ['detail', 'patient', 'analytical', 'responsible', 'learner'] as const;
@@ -64,6 +65,30 @@ const About = () => {
             <li key={key}>{t(`softSkills.items.${key}`)}</li>
           ))}
         </ul>
+      </section>
+
+      {/* Work Experience Timeline */}
+      <section className="mb-10">
+        <h2 className="mb-6 text-lg font-semibold">{t('workTitle')}</h2>
+        <div className="relative border-l-2 border-black/10 pl-8">
+          {workItems.map((key) => (
+            <div key={key} className="relative mb-10 last:mb-0">
+              <div className="absolute -left-10.25 top-1 h-4 w-4 rounded-full border-2 border-black/20 bg-white" />
+              <span className="text-sm font-medium text-black/40">
+                {t(`work.${key}.period`)}
+              </span>
+              <h3 className="mt-1 text-base font-semibold">
+                {t(`work.${key}.position`)}
+              </h3>
+              <p className="mt-0.5 text-sm text-black/50">
+                {t(`work.${key}.company`)}
+              </p>
+              <p className="mt-0.5 text-sm text-black/50">
+                {t(`work.${key}.description`)}
+              </p>
+            </div>
+          ))}
+        </div>
       </section>
 
       {/* Education Timeline */}

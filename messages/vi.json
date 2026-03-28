@@ -78,6 +78,15 @@
       "title": "Liên hệ",
       "labelEmail": "Email"
     },
+    "workTitle": "Quá trình làm việc",
+    "work": {
+      "0": {
+        "period": "Tháng 10/2025 – nay",
+        "position": "Kế toán tổng hợp",
+        "company": "Công ty tư nhân",
+        "description": "Nhập liệu, tổng hợp dữ liệu từ Excel và xử lý chứng từ kế toán."
+      }
+    },
     "educationTitle": "Quá trình học tập",
     "education": {
       "university": {

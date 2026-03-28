@@ -78,6 +78,15 @@
       "title": "Contact",
       "labelEmail": "Email"
     },
+    "workTitle": "Work Experience",
+    "work": {
+      "0": {
+        "period": "Oct 2025 – Present",
+        "position": "General Accountant",
+        "company": "A local company",
+        "description": "Data entry, Excel-based data compilation, and accounting document processing."
+      }
+    },
     "educationTitle": "Education",
     "education": {
       "university": {

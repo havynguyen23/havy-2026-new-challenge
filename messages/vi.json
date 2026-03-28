@@ -114,8 +114,37 @@
   },
   "ProjectsPage": {
     "title": "Dự án",
-    "placeholder": "Nội dung sẽ được cập nhật sớm...",
-    "empty": "Tôi chưa có dự án nào cả. Hãy quay lại sau nhé!"
+    "status": {
+      "planned": "Dự kiến",
+      "in-progress": "Đang thực hiện",
+      "completed": "Hoàn thành"
+    },
+    "projects": {
+      "0": {
+        "title": "Landing Page HTML/CSS",
+        "description": "Một landing page cá nhân được xây dựng bằng HTML và CSS thuần, sử dụng Vite làm công cụ build. Hiện đang trong quá trình phát triển.",
+        "period": "Tháng 3 năm 2026 – hiện tại",
+        "topics": ["HTML", "CSS", "Vite"]
+      }
+    }
+  },
+  "HtmlCssLandingProjectPage": {
+    "title": "Landing Page HTML/CSS",
+    "overview": "Một landing page được xây dựng từ đầu chỉ bằng HTML và CSS — không framework, không thư viện. Mục tiêu là áp dụng kiến thức HTML và CSS cơ bản vào một dự án thực tế, sử dụng Vite làm công cụ build. Trang hiện đang được phát triển và tạm thời có thể truy cập tại .me/index.html.",
+    "backToProjects": "Quay lại Dự án",
+    "techStackTitle": "Công nghệ sử dụng",
+    "techStack": [
+      { "name": "HTML", "description": "Đánh dấu ngữ nghĩa và cấu trúc tài liệu" },
+      { "name": "CSS", "description": "Tạo kiểu, bố cục với Flexbox/Grid và thiết kế responsive" },
+      { "name": "Vite", "description": "Công cụ build nhanh cho quá trình phát triển và đóng gói" }
+    ],
+    "goalsTitle": "Mục tiêu",
+    "goals": [
+      "Áp dụng kiến thức HTML và CSS đã học từ các kế hoạch học tập",
+      "Xây dựng một trang hoàn chỉnh từ đầu mà không dùng CSS framework",
+      "Thực hành thiết kế responsive cho cả mobile và desktop",
+      "Sử dụng Vite làm công cụ build hiện đại lần đầu tiên"
+    ]
   },
   "PlansPage": {
     "title": "Kế hoạch",

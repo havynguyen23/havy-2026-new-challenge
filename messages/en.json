@@ -114,8 +114,37 @@
   },
   "ProjectsPage": {
     "title": "Projects",
-    "placeholder": "Content coming soon...",
-    "empty": "I haven't worked on any project yet. Check back later!"
+    "status": {
+      "planned": "Planned",
+      "in-progress": "In Progress",
+      "completed": "Completed"
+    },
+    "projects": {
+      "0": {
+        "title": "HTML/CSS Landing Page",
+        "description": "A personal landing page built with pure HTML and CSS, using Vite as the build tool. Currently in development.",
+        "period": "Mar 2026 – present",
+        "topics": ["HTML", "CSS", "Vite"]
+      }
+    }
+  },
+  "HtmlCssLandingProjectPage": {
+    "title": "HTML/CSS Landing Page",
+    "overview": "A landing page built from scratch using only HTML and CSS — no frameworks, no libraries. The goal is to apply HTML and CSS fundamentals in a real project, using Vite as the build tool. The page is currently being developed and temporarily accessible at .me/index.html.",
+    "backToProjects": "Back to Projects",
+    "techStackTitle": "Tech Stack",
+    "techStack": [
+      { "name": "HTML", "description": "Semantic markup and document structure" },
+      { "name": "CSS", "description": "Styling, layout with Flexbox/Grid, and responsive design" },
+      { "name": "Vite", "description": "Build tool for fast development and bundling" }
+    ],
+    "goalsTitle": "Goals",
+    "goals": [
+      "Apply HTML and CSS fundamentals learned from the study plans",
+      "Build a real, complete page from scratch without any CSS framework",
+      "Practice responsive design for mobile and desktop",
+      "Use Vite as a modern build tool for the first time"
+    ]
   },
   "PlansPage": {
     "title": "Plans",

@@ -46,4 +46,9 @@ export const ROUTES = {
     TITLE: '',
     LABEL_KEY: 'plans',
   },
+  HTML_CSS_LANDING_PROJECT: {
+    PATH: '/projects/html-css-landing',
+    TITLE: '',
+    LABEL_KEY: 'projects',
+  },
 } as const;

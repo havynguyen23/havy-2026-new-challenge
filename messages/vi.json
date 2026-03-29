@@ -122,8 +122,8 @@
     "projects": {
       "0": {
         "title": "Landing Page HTML/CSS",
-        "description": "Một landing page cá nhân được xây dựng bằng HTML và CSS thuần, sử dụng Vite làm công cụ build. Hiện đang trong quá trình phát triển.",
-        "period": "Tháng 3 năm 2026 – hiện tại",
+        "description": "Một landing page cá nhân được xây dựng bằng HTML và CSS thuần, sử dụng Vite làm công cụ build.",
+        "period": "Tháng 3 – 29 tháng 3, 2026",
         "topics": ["HTML", "CSS", "Vite"]
       },
       "1": {

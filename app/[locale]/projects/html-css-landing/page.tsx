@@ -47,9 +47,9 @@ const HtmlCssLandingProject = () => {
             Free to use
           </span>
           <span
-            className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-medium ${statusStyles['in-progress']}`}
+            className={`shrink-0 rounded-full px-2.5 py-0.5 text-xs font-medium ${statusStyles['completed']}`}
           >
-            {tProjects('status.in-progress')}
+            {tProjects('status.completed')}
           </span>
         </div>
       </div>
@@ -83,14 +83,18 @@ const HtmlCssLandingProject = () => {
       <div className="mb-8 rounded-lg border border-black/10 p-5">
         <h2 className="mb-4 text-base font-semibold">{t('techStackTitle')}</h2>
         <div className="flex flex-col gap-3">
-          {(t.raw('techStack') as { name: string; description: string }[]).map((item) => (
-            <div key={item.name} className="flex items-start gap-3">
-              <span className="rounded-full bg-black/5 px-2.5 py-0.5 text-xs font-medium text-black/60 shrink-0">
-                {item.name}
-              </span>
-              <span className="text-sm text-black/60">{item.description}</span>
-            </div>
-          ))}
+          {(t.raw('techStack') as { name: string; description: string }[]).map(
+            (item) => (
+              <div key={item.name} className="flex items-start gap-3">
+                <span className="rounded-full bg-black/5 px-2.5 py-0.5 text-xs font-medium text-black/60 shrink-0">
+                  {item.name}
+                </span>
+                <span className="text-sm text-black/60">
+                  {item.description}
+                </span>
+              </div>
+            ),
+          )}
         </div>
       </div>
 
@@ -98,7 +102,10 @@ const HtmlCssLandingProject = () => {
         <h2 className="mb-4 text-base font-semibold">{t('goalsTitle')}</h2>
         <ul className="flex flex-col gap-2">
           {(t.raw('goals') as string[]).map((goal) => (
-            <li key={goal} className="flex items-start gap-2 text-sm text-black/60">
+            <li
+              key={goal}
+              className="flex items-start gap-2 text-sm text-black/60"
+            >
               <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-black/30" />
               {goal}
             </li>

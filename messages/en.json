@@ -122,8 +122,8 @@
     "projects": {
       "0": {
         "title": "HTML/CSS Landing Page",
-        "description": "A personal landing page built with pure HTML and CSS, using Vite as the build tool. Currently in development.",
-        "period": "Mar 2026 – present",
+        "description": "A personal landing page built with pure HTML and CSS, using Vite as the build tool.",
+        "period": "Mar 2026 – Mar 29, 2026",
         "topics": ["HTML", "CSS", "Vite"]
       },
       "1": {

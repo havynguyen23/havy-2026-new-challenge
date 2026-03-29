@@ -13,7 +13,7 @@ export type ProjectStaticData = {
 export const PROJECTS: ProjectStaticData[] = [
   {
     id: '0',
-    status: 'in-progress',
+    status: 'completed',
     slug: ROUTES.HTML_CSS_LANDING_PROJECT.PATH.split('/').pop(),
   },
   {

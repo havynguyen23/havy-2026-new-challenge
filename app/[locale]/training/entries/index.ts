@@ -17,9 +17,10 @@ import * as entry20260324 from './2026-03-24';
 import * as entry20260325 from './2026-03-25';
 import * as entry20260326 from './2026-03-26';
 import * as entry20260327 from './2026-03-27';
+import * as entry20260328 from './2026-03-28';
 
 // Entries Week 3
-import * as entry20260328 from './2026-03-28';
+import * as entry20260329 from './2026-03-29';
 
 export type { DiaryEntry };
 
@@ -40,6 +41,7 @@ const allEntries: Record<string, DiaryEntry>[] = [
   entry20260326,
   entry20260327,
   entry20260328,
+  entry20260329,
 ];
 
 export const diaryEntries: Record<string, DiaryEntry[]> = {

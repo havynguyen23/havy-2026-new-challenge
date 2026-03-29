@@ -1,5 +1,6 @@
 import { useTranslations } from 'next-intl';
 import { getTranslations } from 'next-intl/server';
+import Image from 'next/image';
 
 // Utils
 import { customGenerateMetadata } from '@/app/utils/pages';
@@ -68,6 +69,16 @@ const HtmlCssLandingProject = () => {
         </svg>
         View on GitHub
       </a>
+
+      <div className="mb-8 overflow-hidden rounded-lg border border-black/10">
+        <Image
+          src="/images/preview/html-css-landing.jpg"
+          alt={t('title')}
+          width={672}
+          height={378}
+          className="w-full object-cover"
+        />
+      </div>
 
       <div className="mb-8 rounded-lg border border-black/10 p-5">
         <h2 className="mb-4 text-base font-semibold">{t('techStackTitle')}</h2>

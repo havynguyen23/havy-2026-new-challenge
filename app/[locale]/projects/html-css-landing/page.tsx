@@ -54,6 +54,8 @@ const HtmlCssLandingProject = () => {
         </div>
       </div>
 
+      <p className="mb-1 text-xs text-black/40">{tProjects('projects.0.period')}</p>
+
       <p className="mb-4 text-sm text-black/60 leading-relaxed">
         {t('overview')}
       </p>

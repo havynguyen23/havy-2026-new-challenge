@@ -51,4 +51,9 @@ export const ROUTES = {
     TITLE: '',
     LABEL_KEY: 'projects',
   },
+  MANUAL_TESTING_PROJECT: {
+    PATH: '/projects/manual-testing',
+    TITLE: '',
+    LABEL_KEY: 'projects',
+  },
 } as const;

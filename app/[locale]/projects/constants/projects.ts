@@ -16,4 +16,9 @@ export const PROJECTS: ProjectStaticData[] = [
     status: 'in-progress',
     slug: ROUTES.HTML_CSS_LANDING_PROJECT.PATH.split('/').pop(),
   },
+  {
+    id: '1',
+    status: 'planned',
+    slug: ROUTES.MANUAL_TESTING_PROJECT.PATH.split('/').pop(),
+  },
 ];

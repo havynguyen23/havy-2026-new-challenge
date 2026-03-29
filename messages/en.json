@@ -125,8 +125,32 @@
         "description": "A personal landing page built with pure HTML and CSS, using Vite as the build tool. Currently in development.",
         "period": "Mar 2026 – present",
         "topics": ["HTML", "CSS", "Vite"]
+      },
+      "1": {
+        "title": "Manual Testing – HTML/CSS Landing Page",
+        "description": "A manual testing project for the HTML/CSS landing page — writing test cases, executing tests, and reporting bugs.",
+        "period": "Coming soon",
+        "topics": ["Manual Testing", "Test Cases", "Bug Report"]
       }
     }
+  },
+  "ManualTestingProjectPage": {
+    "title": "Manual Testing – HTML/CSS Landing Page",
+    "overview": "A manual testing project targeting the HTML/CSS landing page. The goal is to write structured test cases, execute them manually, and document bugs found — practicing real-world QA workflows without any automation tools.",
+    "backToProjects": "Back to Projects",
+    "techStackTitle": "Tools & Techniques",
+    "techStack": [
+      { "name": "Test Cases", "description": "Writing structured test cases covering functional and UI scenarios" },
+      { "name": "Bug Report", "description": "Documenting bugs with steps to reproduce, expected vs actual results" },
+      { "name": "Google Sheets", "description": "Tracking test execution progress and results" }
+    ],
+    "goalsTitle": "Goals",
+    "goals": [
+      "Write test cases for the HTML/CSS landing page from a tester's perspective",
+      "Execute test cases manually and record pass/fail results",
+      "Report bugs with clear, reproducible steps",
+      "Practice real QA workflows on a project I built myself"
+    ]
   },
   "HtmlCssLandingProjectPage": {
     "title": "HTML/CSS Landing Page",

@@ -125,8 +125,32 @@
         "description": "Một landing page cá nhân được xây dựng bằng HTML và CSS thuần, sử dụng Vite làm công cụ build. Hiện đang trong quá trình phát triển.",
         "period": "Tháng 3 năm 2026 – hiện tại",
         "topics": ["HTML", "CSS", "Vite"]
+      },
+      "1": {
+        "title": "Kiểm thử thủ công – Landing Page HTML/CSS",
+        "description": "Dự án kiểm thử thủ công cho landing page HTML/CSS — viết test case, thực thi kiểm thử và báo cáo lỗi.",
+        "period": "Sắp ra mắt",
+        "topics": ["Kiểm thử thủ công", "Test Case", "Báo cáo lỗi"]
       }
     }
+  },
+  "ManualTestingProjectPage": {
+    "title": "Kiểm thử thủ công – Landing Page HTML/CSS",
+    "overview": "Dự án kiểm thử thủ công cho landing page HTML/CSS. Mục tiêu là viết test case có cấu trúc, thực thi kiểm thử thủ công và ghi lại các lỗi tìm được — thực hành quy trình QA thực tế mà không dùng công cụ tự động hóa.",
+    "backToProjects": "Quay lại Dự án",
+    "techStackTitle": "Công cụ & Kỹ thuật",
+    "techStack": [
+      { "name": "Test Case", "description": "Viết test case có cấu trúc bao gồm các kịch bản chức năng và giao diện" },
+      { "name": "Báo cáo lỗi", "description": "Ghi lại lỗi với các bước tái hiện, kết quả mong đợi và thực tế" },
+      { "name": "Google Sheets", "description": "Theo dõi tiến độ thực thi kiểm thử và kết quả" }
+    ],
+    "goalsTitle": "Mục tiêu",
+    "goals": [
+      "Viết test case cho landing page HTML/CSS từ góc nhìn của một tester",
+      "Thực thi test case thủ công và ghi lại kết quả pass/fail",
+      "Báo cáo lỗi với các bước tái hiện rõ ràng",
+      "Thực hành quy trình QA thực tế trên một dự án do chính mình xây dựng"
+    ]
   },
   "HtmlCssLandingProjectPage": {
     "title": "Landing Page HTML/CSS",
